@@ -1,0 +1,9 @@
+Part 1):
+To ensure that the brightness was controlled correctly we put our breadboard in different conditions. We first tried a normal room light to see the values that were being read. We then turned our phone flash light on and shined it directly on the photocell and the values got higher and the LED got brighter. Finally, we put the breadboard in a box that was almost completely dark and the values got very low and the brightness of the LED was very dim.
+
+Part 2):
+Since we knew that our photocell worked correctly with brightness from part one we did not do further testing on that. For the range finder we moved objects (phones, hands, water bottles, etc.) in and out of the way to see if the sensor would correctly recognize the object and correctly change the color as need be. We then did different tests moving objects from directly in front of the range finder and slowly backed it away in order to see how the color changed as the distance increased.
+
+Part 3):
+This part we started with debouncing the switch. We tested that it was only reading one increase or one decrease at a time and correctly changing the encoder value. We tried doing half turns and multiple turns at once in to ensure that it would only change encoder values when a full turn was made. Once we started to work with the OLED we tested that the ball moved correctly forward. We failed the first few times trying to figure out how to handle bouncing off the edge and coming back but after more testing figured out how to handle increasing/decreasing the x and y values so that they correlated with whatever the value of the encoder was.
+
